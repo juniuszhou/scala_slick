@@ -7,7 +7,7 @@ import scala.slick.session.Session
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource
 
 object MySqlAccess {
-  
+
   def main (args: Array[String]) {
     def database: Session = {
       val dataSource = new MysqlDataSource()
