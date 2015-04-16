@@ -1,5 +1,8 @@
-import scala.slick.driver.MySQLDriver.simple._
+package Jdbc
+
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+
+import scala.slick.driver.MySQLDriver.simple._
 
 object MySqlAccess {
 
